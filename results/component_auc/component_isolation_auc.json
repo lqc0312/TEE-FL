@@ -1,0 +1,906 @@
+{
+  "seed": 42,
+  "reps": 5,
+  "results": [
+    {
+      "variant": "attestation-only",
+      "attack_name": "label_flip",
+      "n_benign": 500,
+      "n_attack": 100,
+      "auc": 0.514,
+      "fpr_at_95": 0.972,
+      "fpr_at_99": 0.99,
+      "latency_rounds": 3.45,
+      "details": {
+        "mean_benign_score": 0.499,
+        "mean_attack_score": 0.5025,
+        "std_scores": 0.1499
+      }
+    },
+    {
+      "variant": "attestation-only",
+      "attack_name": "label_flip",
+      "n_benign": 500,
+      "n_attack": 100,
+      "auc": 0.528,
+      "fpr_at_95": 0.906,
+      "fpr_at_99": 0.994,
+      "latency_rounds": 3.33,
+      "details": {
+        "mean_benign_score": 0.491,
+        "mean_attack_score": 0.5065,
+        "std_scores": 0.1542
+      }
+    },
+    {
+      "variant": "attestation-only",
+      "attack_name": "label_flip",
+      "n_benign": 500,
+      "n_attack": 100,
+      "auc": 0.51,
+      "fpr_at_95": 0.93,
+      "fpr_at_99": 0.998,
+      "latency_rounds": 3.49,
+      "details": {
+        "mean_benign_score": 0.4959,
+        "mean_attack_score": 0.5002,
+        "std_scores": 0.1519
+      }
+    },
+    {
+      "variant": "attestation-only",
+      "attack_name": "label_flip",
+      "n_benign": 500,
+      "n_attack": 100,
+      "auc": 0.506,
+      "fpr_at_95": 0.922,
+      "fpr_at_99": 0.958,
+      "latency_rounds": 3.52,
+      "details": {
+        "mean_benign_score": 0.5087,
+        "mean_attack_score": 0.5146,
+        "std_scores": 0.1491
+      }
+    },
+    {
+      "variant": "attestation-only",
+      "attack_name": "label_flip",
+      "n_benign": 500,
+      "n_attack": 100,
+      "auc": 0.512,
+      "fpr_at_95": 0.932,
+      "fpr_at_99": 0.998,
+      "latency_rounds": 3.47,
+      "details": {
+        "mean_benign_score": 0.5019,
+        "mean_attack_score": 0.5061,
+        "std_scores": 0.1552
+      }
+    },
+    {
+      "variant": "attestation-only",
+      "attack_name": "backdoor",
+      "n_benign": 500,
+      "n_attack": 100,
+      "auc": 0.549,
+      "fpr_at_95": 0.94,
+      "fpr_at_99": 0.996,
+      "latency_rounds": 3.16,
+      "details": {
+        "mean_benign_score": 0.5017,
+        "mean_attack_score": 0.5312,
+        "std_scores": 0.1458
+      }
+    },
+    {
+      "variant": "attestation-only",
+      "attack_name": "backdoor",
+      "n_benign": 500,
+      "n_attack": 100,
+      "auc": 0.558,
+      "fpr_at_95": 0.872,
+      "fpr_at_99": 0.99,
+      "latency_rounds": 3.1,
+      "details": {
+        "mean_benign_score": 0.5074,
+        "mean_attack_score": 0.542,
+        "std_scores": 0.1479
+      }
+    },
+    {
+      "variant": "attestation-only",
+      "attack_name": "backdoor",
+      "n_benign": 500,
+      "n_attack": 100,
+      "auc": 0.536,
+      "fpr_at_95": 0.896,
+      "fpr_at_99": 0.97,
+      "latency_rounds": 3.27,
+      "details": {
+        "mean_benign_score": 0.5057,
+        "mean_attack_score": 0.5255,
+        "std_scores": 0.1462
+      }
+    },
+    {
+      "variant": "attestation-only",
+      "attack_name": "backdoor",
+      "n_benign": 500,
+      "n_attack": 100,
+      "auc": 0.552,
+      "fpr_at_95": 0.936,
+      "fpr_at_99": 0.998,
+      "latency_rounds": 3.14,
+      "details": {
+        "mean_benign_score": 0.4951,
+        "mean_attack_score": 0.5205,
+        "std_scores": 0.1532
+      }
+    },
+    {
+      "variant": "attestation-only",
+      "attack_name": "backdoor",
+      "n_benign": 500,
+      "n_attack": 100,
+      "auc": 0.561,
+      "fpr_at_95": 0.924,
+      "fpr_at_99": 0.998,
+      "latency_rounds": 3.08,
+      "details": {
+        "mean_benign_score": 0.4914,
+        "mean_attack_score": 0.5262,
+        "std_scores": 0.1512
+      }
+    },
+    {
+      "variant": "attestation-only",
+      "attack_name": "model_replace",
+      "n_benign": 500,
+      "n_attack": 100,
+      "auc": 0.977,
+      "fpr_at_95": 0.0,
+      "fpr_at_99": 0.78,
+      "latency_rounds": 1.08,
+      "details": {
+        "mean_benign_score": 0.4967,
+        "mean_attack_score": 0.9773,
+        "std_scores": 0.2294
+      }
+    },
+    {
+      "variant": "attestation-only",
+      "attack_name": "model_replace",
+      "n_benign": 500,
+      "n_attack": 100,
+      "auc": 0.978,
+      "fpr_at_95": 0.0,
+      "fpr_at_99": 0.768,
+      "latency_rounds": 1.08,
+      "details": {
+        "mean_benign_score": 0.5025,
+        "mean_attack_score": 0.9791,
+        "std_scores": 0.2302
+      }
+    },
+    {
+      "variant": "attestation-only",
+      "attack_name": "model_replace",
+      "n_benign": 500,
+      "n_attack": 100,
+      "auc": 0.979,
+      "fpr_at_95": 0.0,
+      "fpr_at_99": 0.712,
+      "latency_rounds": 1.08,
+      "details": {
+        "mean_benign_score": 0.4944,
+        "mean_attack_score": 0.9791,
+        "std_scores": 0.2333
+      }
+    },
+    {
+      "variant": "attestation-only",
+      "attack_name": "model_replace",
+      "n_benign": 500,
+      "n_attack": 100,
+      "auc": 0.978,
+      "fpr_at_95": 0.002,
+      "fpr_at_99": 0.752,
+      "latency_rounds": 1.08,
+      "details": {
+        "mean_benign_score": 0.5011,
+        "mean_attack_score": 0.9798,
+        "std_scores": 0.2272
+      }
+    },
+    {
+      "variant": "attestation-only",
+      "attack_name": "model_replace",
+      "n_benign": 500,
+      "n_attack": 100,
+      "auc": 0.978,
+      "fpr_at_95": 0.004,
+      "fpr_at_99": 0.746,
+      "latency_rounds": 1.08,
+      "details": {
+        "mean_benign_score": 0.4965,
+        "mean_attack_score": 0.9772,
+        "std_scores": 0.2283
+      }
+    },
+    {
+      "variant": "commitment-only",
+      "attack_name": "label_flip",
+      "n_benign": 500,
+      "n_attack": 100,
+      "auc": 0.511,
+      "fpr_at_95": 0.98,
+      "fpr_at_99": 0.99,
+      "latency_rounds": 3.48,
+      "details": {
+        "mean_benign_score": 0.5146,
+        "mean_attack_score": 0.523,
+        "std_scores": 0.1517
+      }
+    },
+    {
+      "variant": "commitment-only",
+      "attack_name": "label_flip",
+      "n_benign": 500,
+      "n_attack": 100,
+      "auc": 0.513,
+      "fpr_at_95": 0.892,
+      "fpr_at_99": 0.974,
+      "latency_rounds": 3.46,
+      "details": {
+        "mean_benign_score": 0.4927,
+        "mean_attack_score": 0.5004,
+        "std_scores": 0.1492
+      }
+    },
+    {
+      "variant": "commitment-only",
+      "attack_name": "label_flip",
+      "n_benign": 500,
+      "n_attack": 100,
+      "auc": 0.529,
+      "fpr_at_95": 0.984,
+      "fpr_at_99": 0.996,
+      "latency_rounds": 3.33,
+      "details": {
+        "mean_benign_score": 0.4999,
+        "mean_attack_score": 0.5108,
+        "std_scores": 0.1572
+      }
+    },
+    {
+      "variant": "commitment-only",
+      "attack_name": "label_flip",
+      "n_benign": 500,
+      "n_attack": 100,
+      "auc": 0.509,
+      "fpr_at_95": 0.906,
+      "fpr_at_99": 0.99,
+      "latency_rounds": 3.49,
+      "details": {
+        "mean_benign_score": 0.5166,
+        "mean_attack_score": 0.5234,
+        "std_scores": 0.1527
+      }
+    },
+    {
+      "variant": "commitment-only",
+      "attack_name": "label_flip",
+      "n_benign": 500,
+      "n_attack": 100,
+      "auc": 0.509,
+      "fpr_at_95": 0.948,
+      "fpr_at_99": 0.996,
+      "latency_rounds": 3.49,
+      "details": {
+        "mean_benign_score": 0.5123,
+        "mean_attack_score": 0.513,
+        "std_scores": 0.1458
+      }
+    },
+    {
+      "variant": "commitment-only",
+      "attack_name": "backdoor",
+      "n_benign": 500,
+      "n_attack": 100,
+      "auc": 0.731,
+      "fpr_at_95": 0.826,
+      "fpr_at_99": 0.992,
+      "latency_rounds": 2.07,
+      "details": {
+        "mean_benign_score": 0.4933,
+        "mean_attack_score": 0.6166,
+        "std_scores": 0.1552
+      }
+    },
+    {
+      "variant": "commitment-only",
+      "attack_name": "backdoor",
+      "n_benign": 500,
+      "n_attack": 100,
+      "auc": 0.711,
+      "fpr_at_95": 0.854,
+      "fpr_at_99": 0.9,
+      "latency_rounds": 2.17,
+      "details": {
+        "mean_benign_score": 0.4998,
+        "mean_attack_score": 0.6295,
+        "std_scores": 0.1609
+      }
+    },
+    {
+      "variant": "commitment-only",
+      "attack_name": "backdoor",
+      "n_benign": 500,
+      "n_attack": 100,
+      "auc": 0.71,
+      "fpr_at_95": 0.812,
+      "fpr_at_99": 0.92,
+      "latency_rounds": 2.17,
+      "details": {
+        "mean_benign_score": 0.506,
+        "mean_attack_score": 0.6278,
+        "std_scores": 0.1608
+      }
+    },
+    {
+      "variant": "commitment-only",
+      "attack_name": "backdoor",
+      "n_benign": 500,
+      "n_attack": 100,
+      "auc": 0.73,
+      "fpr_at_95": 0.776,
+      "fpr_at_99": 0.848,
+      "latency_rounds": 2.07,
+      "details": {
+        "mean_benign_score": 0.4993,
+        "mean_attack_score": 0.6224,
+        "std_scores": 0.1525
+      }
+    },
+    {
+      "variant": "commitment-only",
+      "attack_name": "backdoor",
+      "n_benign": 500,
+      "n_attack": 100,
+      "auc": 0.718,
+      "fpr_at_95": 0.8,
+      "fpr_at_99": 0.894,
+      "latency_rounds": 2.13,
+      "details": {
+        "mean_benign_score": 0.5,
+        "mean_attack_score": 0.6237,
+        "std_scores": 0.1573
+      }
+    },
+    {
+      "variant": "commitment-only",
+      "attack_name": "model_replace",
+      "n_benign": 500,
+      "n_attack": 100,
+      "auc": 0.808,
+      "fpr_at_95": 0.838,
+      "fpr_at_99": 0.942,
+      "latency_rounds": 1.72,
+      "details": {
+        "mean_benign_score": 0.5057,
+        "mean_attack_score": 0.6974,
+        "std_scores": 0.1608
+      }
+    },
+    {
+      "variant": "commitment-only",
+      "attack_name": "model_replace",
+      "n_benign": 500,
+      "n_attack": 100,
+      "auc": 0.803,
+      "fpr_at_95": 0.754,
+      "fpr_at_99": 0.892,
+      "latency_rounds": 1.75,
+      "details": {
+        "mean_benign_score": 0.4952,
+        "mean_attack_score": 0.681,
+        "std_scores": 0.1655
+      }
+    },
+    {
+      "variant": "commitment-only",
+      "attack_name": "model_replace",
+      "n_benign": 500,
+      "n_attack": 100,
+      "auc": 0.799,
+      "fpr_at_95": 0.792,
+      "fpr_at_99": 0.868,
+      "latency_rounds": 1.76,
+      "details": {
+        "mean_benign_score": 0.5003,
+        "mean_attack_score": 0.6866,
+        "std_scores": 0.1676
+      }
+    },
+    {
+      "variant": "commitment-only",
+      "attack_name": "model_replace",
+      "n_benign": 500,
+      "n_attack": 100,
+      "auc": 0.799,
+      "fpr_at_95": 0.79,
+      "fpr_at_99": 0.916,
+      "latency_rounds": 1.76,
+      "details": {
+        "mean_benign_score": 0.5022,
+        "mean_attack_score": 0.6807,
+        "std_scores": 0.1629
+      }
+    },
+    {
+      "variant": "commitment-only",
+      "attack_name": "model_replace",
+      "n_benign": 500,
+      "n_attack": 100,
+      "auc": 0.812,
+      "fpr_at_95": 0.692,
+      "fpr_at_99": 0.838,
+      "latency_rounds": 1.71,
+      "details": {
+        "mean_benign_score": 0.4865,
+        "mean_attack_score": 0.6758,
+        "std_scores": 0.1626
+      }
+    },
+    {
+      "variant": "screening-only",
+      "attack_name": "label_flip",
+      "n_benign": 500,
+      "n_attack": 100,
+      "auc": 0.941,
+      "fpr_at_95": 0.266,
+      "fpr_at_99": 0.798,
+      "latency_rounds": 1.22,
+      "details": {
+        "mean_benign_score": 0.4992,
+        "mean_attack_score": 0.8265,
+        "std_scores": 0.1917
+      }
+    },
+    {
+      "variant": "screening-only",
+      "attack_name": "label_flip",
+      "n_benign": 500,
+      "n_attack": 100,
+      "auc": 0.926,
+      "fpr_at_95": 0.584,
+      "fpr_at_99": 0.798,
+      "latency_rounds": 1.27,
+      "details": {
+        "mean_benign_score": 0.496,
+        "mean_attack_score": 0.8206,
+        "std_scores": 0.1946
+      }
+    },
+    {
+      "variant": "screening-only",
+      "attack_name": "label_flip",
+      "n_benign": 500,
+      "n_attack": 100,
+      "auc": 0.932,
+      "fpr_at_95": 0.348,
+      "fpr_at_99": 0.812,
+      "latency_rounds": 1.25,
+      "details": {
+        "mean_benign_score": 0.4909,
+        "mean_attack_score": 0.821,
+        "std_scores": 0.195
+      }
+    },
+    {
+      "variant": "screening-only",
+      "attack_name": "label_flip",
+      "n_benign": 500,
+      "n_attack": 100,
+      "auc": 0.926,
+      "fpr_at_95": 0.43,
+      "fpr_at_99": 0.812,
+      "latency_rounds": 1.27,
+      "details": {
+        "mean_benign_score": 0.5053,
+        "mean_attack_score": 0.8134,
+        "std_scores": 0.1868
+      }
+    },
+    {
+      "variant": "screening-only",
+      "attack_name": "label_flip",
+      "n_benign": 500,
+      "n_attack": 100,
+      "auc": 0.926,
+      "fpr_at_95": 0.408,
+      "fpr_at_99": 0.778,
+      "latency_rounds": 1.27,
+      "details": {
+        "mean_benign_score": 0.4922,
+        "mean_attack_score": 0.8259,
+        "std_scores": 0.1951
+      }
+    },
+    {
+      "variant": "screening-only",
+      "attack_name": "backdoor",
+      "n_benign": 500,
+      "n_attack": 100,
+      "auc": 0.899,
+      "fpr_at_95": 0.462,
+      "fpr_at_99": 0.756,
+      "latency_rounds": 1.37,
+      "details": {
+        "mean_benign_score": 0.501,
+        "mean_attack_score": 0.7903,
+        "std_scores": 0.189
+      }
+    },
+    {
+      "variant": "screening-only",
+      "attack_name": "backdoor",
+      "n_benign": 500,
+      "n_attack": 100,
+      "auc": 0.902,
+      "fpr_at_95": 0.536,
+      "fpr_at_99": 0.874,
+      "latency_rounds": 1.36,
+      "details": {
+        "mean_benign_score": 0.5051,
+        "mean_attack_score": 0.7677,
+        "std_scores": 0.1728
+      }
+    },
+    {
+      "variant": "screening-only",
+      "attack_name": "backdoor",
+      "n_benign": 500,
+      "n_attack": 100,
+      "auc": 0.898,
+      "fpr_at_95": 0.48,
+      "fpr_at_99": 0.828,
+      "latency_rounds": 1.37,
+      "details": {
+        "mean_benign_score": 0.5085,
+        "mean_attack_score": 0.7767,
+        "std_scores": 0.1766
+      }
+    },
+    {
+      "variant": "screening-only",
+      "attack_name": "backdoor",
+      "n_benign": 500,
+      "n_attack": 100,
+      "auc": 0.895,
+      "fpr_at_95": 0.526,
+      "fpr_at_99": 0.788,
+      "latency_rounds": 1.38,
+      "details": {
+        "mean_benign_score": 0.5033,
+        "mean_attack_score": 0.7814,
+        "std_scores": 0.1823
+      }
+    },
+    {
+      "variant": "screening-only",
+      "attack_name": "backdoor",
+      "n_benign": 500,
+      "n_attack": 100,
+      "auc": 0.898,
+      "fpr_at_95": 0.438,
+      "fpr_at_99": 0.84,
+      "latency_rounds": 1.37,
+      "details": {
+        "mean_benign_score": 0.4989,
+        "mean_attack_score": 0.784,
+        "std_scores": 0.188
+      }
+    },
+    {
+      "variant": "screening-only",
+      "attack_name": "model_replace",
+      "n_benign": 500,
+      "n_attack": 100,
+      "auc": 0.601,
+      "fpr_at_95": 0.868,
+      "fpr_at_99": 0.958,
+      "latency_rounds": 2.8,
+      "details": {
+        "mean_benign_score": 0.5062,
+        "mean_attack_score": 0.5653,
+        "std_scores": 0.1549
+      }
+    },
+    {
+      "variant": "screening-only",
+      "attack_name": "model_replace",
+      "n_benign": 500,
+      "n_attack": 100,
+      "auc": 0.602,
+      "fpr_at_95": 0.93,
+      "fpr_at_99": 0.994,
+      "latency_rounds": 2.79,
+      "details": {
+        "mean_benign_score": 0.4935,
+        "mean_attack_score": 0.5556,
+        "std_scores": 0.1561
+      }
+    },
+    {
+      "variant": "screening-only",
+      "attack_name": "model_replace",
+      "n_benign": 500,
+      "n_attack": 100,
+      "auc": 0.607,
+      "fpr_at_95": 0.908,
+      "fpr_at_99": 0.966,
+      "latency_rounds": 2.76,
+      "details": {
+        "mean_benign_score": 0.5025,
+        "mean_attack_score": 0.5611,
+        "std_scores": 0.15
+      }
+    },
+    {
+      "variant": "screening-only",
+      "attack_name": "model_replace",
+      "n_benign": 500,
+      "n_attack": 100,
+      "auc": 0.599,
+      "fpr_at_95": 0.948,
+      "fpr_at_99": 0.994,
+      "latency_rounds": 2.81,
+      "details": {
+        "mean_benign_score": 0.5061,
+        "mean_attack_score": 0.5561,
+        "std_scores": 0.1498
+      }
+    },
+    {
+      "variant": "screening-only",
+      "attack_name": "model_replace",
+      "n_benign": 500,
+      "n_attack": 100,
+      "auc": 0.607,
+      "fpr_at_95": 0.824,
+      "fpr_at_99": 0.908,
+      "latency_rounds": 2.76,
+      "details": {
+        "mean_benign_score": 0.4995,
+        "mean_attack_score": 0.5593,
+        "std_scores": 0.1535
+      }
+    },
+    {
+      "variant": "full-teefl",
+      "attack_name": "label_flip",
+      "n_benign": 500,
+      "n_attack": 100,
+      "auc": 0.977,
+      "fpr_at_95": 0.006,
+      "fpr_at_99": 0.75,
+      "latency_rounds": 1.08,
+      "details": {
+        "mean_benign_score": 0.5034,
+        "mean_attack_score": 0.9744,
+        "std_scores": 0.2318
+      }
+    },
+    {
+      "variant": "full-teefl",
+      "attack_name": "label_flip",
+      "n_benign": 500,
+      "n_attack": 100,
+      "auc": 0.975,
+      "fpr_at_95": 0.002,
+      "fpr_at_99": 0.806,
+      "latency_rounds": 1.09,
+      "details": {
+        "mean_benign_score": 0.5018,
+        "mean_attack_score": 0.9794,
+        "std_scores": 0.2268
+      }
+    },
+    {
+      "variant": "full-teefl",
+      "attack_name": "label_flip",
+      "n_benign": 500,
+      "n_attack": 100,
+      "auc": 0.978,
+      "fpr_at_95": 0.002,
+      "fpr_at_99": 0.748,
+      "latency_rounds": 1.08,
+      "details": {
+        "mean_benign_score": 0.5046,
+        "mean_attack_score": 0.9793,
+        "std_scores": 0.2264
+      }
+    },
+    {
+      "variant": "full-teefl",
+      "attack_name": "label_flip",
+      "n_benign": 500,
+      "n_attack": 100,
+      "auc": 0.979,
+      "fpr_at_95": 0.0,
+      "fpr_at_99": 0.766,
+      "latency_rounds": 1.08,
+      "details": {
+        "mean_benign_score": 0.4913,
+        "mean_attack_score": 0.9768,
+        "std_scores": 0.234
+      }
+    },
+    {
+      "variant": "full-teefl",
+      "attack_name": "label_flip",
+      "n_benign": 500,
+      "n_attack": 100,
+      "auc": 0.976,
+      "fpr_at_95": 0.0,
+      "fpr_at_99": 0.83,
+      "latency_rounds": 1.09,
+      "details": {
+        "mean_benign_score": 0.5192,
+        "mean_attack_score": 0.9771,
+        "std_scores": 0.219
+      }
+    },
+    {
+      "variant": "full-teefl",
+      "attack_name": "backdoor",
+      "n_benign": 500,
+      "n_attack": 100,
+      "auc": 0.976,
+      "fpr_at_95": 0.012,
+      "fpr_at_99": 0.81,
+      "latency_rounds": 1.09,
+      "details": {
+        "mean_benign_score": 0.4945,
+        "mean_attack_score": 0.9443,
+        "std_scores": 0.2175
+      }
+    },
+    {
+      "variant": "full-teefl",
+      "attack_name": "backdoor",
+      "n_benign": 500,
+      "n_attack": 100,
+      "auc": 0.974,
+      "fpr_at_95": 0.148,
+      "fpr_at_99": 0.748,
+      "latency_rounds": 1.1,
+      "details": {
+        "mean_benign_score": 0.5072,
+        "mean_attack_score": 0.9646,
+        "std_scores": 0.2224
+      }
+    },
+    {
+      "variant": "full-teefl",
+      "attack_name": "backdoor",
+      "n_benign": 500,
+      "n_attack": 100,
+      "auc": 0.974,
+      "fpr_at_95": 0.03,
+      "fpr_at_99": 0.856,
+      "latency_rounds": 1.09,
+      "details": {
+        "mean_benign_score": 0.5043,
+        "mean_attack_score": 0.9644,
+        "std_scores": 0.2205
+      }
+    },
+    {
+      "variant": "full-teefl",
+      "attack_name": "backdoor",
+      "n_benign": 500,
+      "n_attack": 100,
+      "auc": 0.974,
+      "fpr_at_95": 0.004,
+      "fpr_at_99": 0.822,
+      "latency_rounds": 1.09,
+      "details": {
+        "mean_benign_score": 0.499,
+        "mean_attack_score": 0.9504,
+        "std_scores": 0.2179
+      }
+    },
+    {
+      "variant": "full-teefl",
+      "attack_name": "backdoor",
+      "n_benign": 500,
+      "n_attack": 100,
+      "auc": 0.972,
+      "fpr_at_95": 0.004,
+      "fpr_at_99": 0.75,
+      "latency_rounds": 1.1,
+      "details": {
+        "mean_benign_score": 0.4958,
+        "mean_attack_score": 0.969,
+        "std_scores": 0.2246
+      }
+    },
+    {
+      "variant": "full-teefl",
+      "attack_name": "model_replace",
+      "n_benign": 500,
+      "n_attack": 100,
+      "auc": 0.978,
+      "fpr_at_95": 0.0,
+      "fpr_at_99": 0.78,
+      "latency_rounds": 1.08,
+      "details": {
+        "mean_benign_score": 0.4951,
+        "mean_attack_score": 0.9788,
+        "std_scores": 0.2244
+      }
+    },
+    {
+      "variant": "full-teefl",
+      "attack_name": "model_replace",
+      "n_benign": 500,
+      "n_attack": 100,
+      "auc": 0.978,
+      "fpr_at_95": 0.0,
+      "fpr_at_99": 0.774,
+      "latency_rounds": 1.08,
+      "details": {
+        "mean_benign_score": 0.5071,
+        "mean_attack_score": 0.9797,
+        "std_scores": 0.228
+      }
+    },
+    {
+      "variant": "full-teefl",
+      "attack_name": "model_replace",
+      "n_benign": 500,
+      "n_attack": 100,
+      "auc": 0.978,
+      "fpr_at_95": 0.0,
+      "fpr_at_99": 0.77,
+      "latency_rounds": 1.08,
+      "details": {
+        "mean_benign_score": 0.4949,
+        "mean_attack_score": 0.9772,
+        "std_scores": 0.2279
+      }
+    },
+    {
+      "variant": "full-teefl",
+      "attack_name": "model_replace",
+      "n_benign": 500,
+      "n_attack": 100,
+      "auc": 0.978,
+      "fpr_at_95": 0.002,
+      "fpr_at_99": 0.722,
+      "latency_rounds": 1.08,
+      "details": {
+        "mean_benign_score": 0.4905,
+        "mean_attack_score": 0.9774,
+        "std_scores": 0.2302
+      }
+    },
+    {
+      "variant": "full-teefl",
+      "attack_name": "model_replace",
+      "n_benign": 500,
+      "n_attack": 100,
+      "auc": 0.977,
+      "fpr_at_95": 0.002,
+      "fpr_at_99": 0.792,
+      "latency_rounds": 1.08,
+      "details": {
+        "mean_benign_score": 0.5145,
+        "mean_attack_score": 0.9801,
+        "std_scores": 0.2223
+      }
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+\begin{table}[htbp]
+\centering
+\caption{SGX enclave memory telemetry (mean over 10 rounds).}
+\label{tab:sgx_telemetry}
+\begin{tabular}{lccccccc}
+\toprule
+Model & $\bar{M}_{\text{peak}}$ (MB) & $\sigma$ (MB) & Heap & Stack & Pages In & Pages Out & Overhead \\ \\n\midrule
+3D-ResNet-18 & 99.7 & 3.52 & 71.8 & 8.0 & 18 & 16 & 1.17x \ \n3D-ResNet-50 & 121.6 & 0.00 & 87.5 & 9.7 & 64 & 54 & 1.17x \ \nMLP-MIMIC & 31.1 & 1.09 & 22.4 & 2.5 & 2 & 3 & 1.17x \ \n2D-ResNet-18 & 48.2 & 1.70 & 34.7 & 3.9 & 2 & 3 & 1.17x \ \n\bottomrule
+\end{tabular}
+\end{table}
